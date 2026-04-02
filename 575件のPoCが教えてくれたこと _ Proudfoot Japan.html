@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)file:///C:/Users/USER/Downloads/lp_kaizen_os_5.html -->
+<html lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <!-- Google Analytics -->
+  <script async="" src="./575件のPoCが教えてくれたこと _ Proudfoot Japan_files/js"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DSNTL3N5XD');
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>575件のPoCが教えてくれたこと | Proudfoot Japan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./575件のPoCが教えてくれたこと _ Proudfoot Japan_files/css2" rel="stylesheet">
+  <style>
+    :root {
+      --navy: #1a2640;
+      --navy-deep: #0f1822;
+      --gold: #a07820;
+      --gold-light: #c9a84c;
+      --gold-pale: #f0e4c0;
+      --off-white: #f9f7f2;
+      --warm-gray: #e8e4dc;
+      --text-dark: #1a1a1a;
+      --text-mid: #444;
+      --text-light: #777;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Noto Serif JP', serif;
+      background: var(--off-white);
+      color: var(--text-dark);
+      line-height: 1.9;
+      font-size: 15px;
+      overflow-x: hidden;
+    }
+
+    /* ── FADE-IN ANIMATION ── */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.85s ease, transform 0.85s ease;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ── HERO ── */
+    .hero {
+      background: var(--navy-deep);
+      color: var(--off-white);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 80px 32px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 50% at 20% 60%, rgba(160,120,32,0.08) 0%, transparent 70%),
+        radial-gradient(ellipse 50% 40% at 80% 30%, rgba(160,120,32,0.06) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .hero-eyebrow {
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.25em;
+      color: var(--gold-light);
+      text-transform: uppercase;
+      margin-bottom: 40px;
+    }
+
+    .hero-number {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(80px, 18vw, 180px);
+      font-weight: 300;
+      color: var(--off-white);
+      line-height: 0.85;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+      position: relative;
+    }
+
+    .hero-number span {
+      font-size: clamp(28px, 5vw, 48px);
+      color: var(--gold-light);
+      font-weight: 400;
+      letter-spacing: 0.05em;
+      display: block;
+      margin-top: 12px;
+    }
+
+    .hero-subtitle {
+      font-size: clamp(13px, 2vw, 16px);
+      font-weight: 300;
+      color: rgba(249,247,242,0.6);
+      margin-top: 28px;
+      letter-spacing: 0.08em;
+      line-height: 2;
+    }
+
+    .hero-question {
+      margin-top: 56px;
+      max-width: 640px;
+      font-size: clamp(18px, 3vw, 26px);
+      font-weight: 300;
+      line-height: 1.7;
+      color: var(--off-white);
+      border-top: 1px solid rgba(160,120,32,0.3);
+      padding-top: 40px;
+    }
+
+    .hero-scroll {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      color: rgba(249,247,242,0.4);
+      font-family: 'DM Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.2em;
+    }
+
+    .hero-scroll-line {
+      width: 1px;
+      height: 48px;
+      background: linear-gradient(to bottom, rgba(160,120,32,0.6), transparent);
+      animation: scrollLine 2s ease-in-out infinite;
+    }
+
+    @keyframes scrollLine {
+      0%, 100% { transform: scaleY(1); opacity: 0.6; }
+      50% { transform: scaleY(0.5); opacity: 0.2; }
+    }
+
+    /* ── SECTION BASE ── */
+    section {
+      padding: 100px 32px;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .section-label {
+      font-family: 'DM Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.3em;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 32px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .section-label::after {
+      content: '';
+      flex: 1;
+      max-width: 60px;
+      height: 1px;
+      background: var(--gold);
+      opacity: 0.4;
+    }
+
+    h2 {
+      font-family: 'Noto Serif JP', serif;
+      font-size: clamp(22px, 3.5vw, 32px);
+      font-weight: 500;
+      line-height: 1.5;
+      color: var(--navy);
+      margin-bottom: 32px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 2;
+      color: var(--text-mid);
+      margin-bottom: 20px;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    /* ── S01 FACT ── */
+    .s01 {
+      background: var(--navy);
+      max-width: none;
+      padding: 100px 32px;
+    }
+
+    .s01-inner {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .s01 .section-label { color: var(--gold-light); }
+    .s01 .section-label::after { background: var(--gold-light); }
+    .s01 h2 { color: var(--off-white); }
+    .s01 p { color: rgba(249,247,242,0.7); }
+
+    .fact-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2px;
+      margin: 48px 0;
+      background: rgba(160,120,32,0.15);
+    }
+
+    .fact-item {
+      background: var(--navy-deep);
+      padding: 32px 28px;
+      position: relative;
+    }
+
+    .fact-item::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 2px;
+      height: 100%;
+      background: var(--gold);
+      opacity: 0.3;
+    }
+
+    .fact-number {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(32px, 6vw, 52px);
+      font-weight: 300;
+      color: var(--gold-light);
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+
+    .fact-label {
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      color: rgba(249,247,242,0.5);
+      letter-spacing: 0.1em;
+    }
+
+    .fact-note {
+      font-family: 'DM Mono', monospace;
+      font-size: 10px;
+      color: rgba(249,247,242,0.35);
+      letter-spacing: 0.1em;
+      text-align: right;
+      margin-top: 24px;
+    }
+
+    .reversal {
+      margin-top: 48px;
+      padding: 32px 36px;
+      border-left: 2px solid var(--gold);
+      background: rgba(160,120,32,0.06);
+    }
+
+    .reversal p {
+      font-size: 17px;
+      color: var(--off-white);
+      line-height: 1.9;
+      margin: 0;
+    }
+
+    .reversal em {
+      font-style: italic;
+      color: var(--gold-light);
+    }
+
+    /* ── S02 KAIZEN OS ── */
+    .s02 { background: var(--off-white); }
+
+    .callout {
+      background: var(--warm-gray);
+      border-left: 3px solid var(--navy);
+      padding: 28px 32px;
+      margin: 40px 0;
+    }
+
+    .callout p {
+      font-size: 17px;
+      color: var(--navy);
+      font-weight: 500;
+      margin: 0;
+      line-height: 1.7;
+    }
+
+    /* ── S03 21 FACTORS ── */
+    .s03 {
+      background: #f2efe8;
+      max-width: none;
+      padding: 100px 32px;
+    }
+
+    .s03-inner {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .factors-intro {
+      font-size: 15px;
+      color: var(--text-mid);
+      line-height: 2;
+      margin-bottom: 48px;
+    }
+
+    .factor-category {
+      margin-bottom: 40px;
+    }
+
+    .category-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    .category-num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 36px;
+      font-weight: 300;
+      color: var(--gold);
+      line-height: 1;
+      min-width: 36px;
+    }
+
+    .category-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--navy);
+      letter-spacing: 0.05em;
+    }
+
+    .category-examples {
+      padding-left: 52px;
+      font-size: 13px;
+      color: var(--text-light);
+      line-height: 2;
+      font-family: 'DM Mono', monospace;
+    }
+
+    .factors-separator {
+      width: 100%;
+      height: 1px;
+      background: var(--warm-gray);
+      margin: 40px 0;
+    }
+
+    .activated-factors {
+      background: var(--navy);
+      padding: 40px 36px;
+      margin-top: 48px;
+    }
+
+    .activated-label {
+      font-family: 'DM Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.25em;
+      color: var(--gold-light);
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+
+    .activated-item {
+      border-bottom: 1px solid rgba(249,247,242,0.1);
+      padding: 20px 0;
+    }
+
+    .activated-item:last-child { border-bottom: none; }
+
+    .activated-factor-id {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 22px;
+      color: var(--gold-light);
+      margin-bottom: 6px;
+    }
+
+    .activated-factor-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--off-white);
+      margin-bottom: 8px;
+    }
+
+    .activated-factor-desc {
+      font-size: 13px;
+      color: rgba(249,247,242,0.6);
+      line-height: 1.8;
+    }
+
+    .self-check {
+      margin-top: 48px;
+      padding: 36px;
+      border: 1px solid rgba(160,120,32,0.3);
+      background: rgba(160,120,32,0.04);
+    }
+
+    .self-check-title {
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+
+    .check-item {
+      font-size: 14px;
+      color: var(--text-mid);
+      line-height: 1.9;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--warm-gray);
+      display: flex;
+      gap: 16px;
+    }
+
+    .check-item:last-child { border-bottom: none; }
+
+    .check-mark {
+      color: var(--gold);
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20px;
+      min-width: 20px;
+      line-height: 1.5;
+    }
+
+    /* ── S04 ALTERNATIVE OS ── */
+    .s04 { background: var(--off-white); }
+
+    .os-framework {
+      margin: 48px 0;
+    }
+
+    .os-item {
+      display: flex;
+      gap: 32px;
+      padding: 36px 0;
+      border-bottom: 1px solid var(--warm-gray);
+    }
+
+    .os-item:last-child { border-bottom: none; }
+
+    .os-number {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 48px;
+      font-weight: 300;
+      color: var(--gold);
+      line-height: 1;
+      min-width: 48px;
+      opacity: 0.7;
+    }
+
+    .os-content {}
+
+    .os-title {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--navy);
+      margin-bottom: 12px;
+      letter-spacing: 0.02em;
+    }
+
+    .os-desc {
+      font-size: 14px;
+      color: var(--text-mid);
+      line-height: 2;
+      margin-bottom: 16px;
+    }
+
+    .os-kepco {
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      color: var(--gold);
+      line-height: 1.7;
+      padding: 12px 16px;
+      background: rgba(160,120,32,0.06);
+      border-left: 2px solid rgba(160,120,32,0.3);
+    }
+
+    /* ── S05 RESPONSIBILITY ── */
+    .s05 {
+      background: var(--navy);
+      max-width: none;
+      padding: 100px 32px;
+    }
+
+    .s05-inner {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .s05 .section-label { color: var(--gold-light); }
+    .s05 .section-label::after { background: var(--gold-light); }
+    .s05 h2 { color: var(--off-white); }
+    .s05 p { color: rgba(249,247,242,0.7); }
+
+    .responsibility-quote {
+      margin: 48px 0;
+      padding: 40px;
+      border: 1px solid rgba(160,120,32,0.25);
+      background: rgba(160,120,32,0.05);
+      position: relative;
+    }
+
+    .responsibility-quote::before {
+      content: '"';
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 80px;
+      color: var(--gold);
+      opacity: 0.3;
+      position: absolute;
+      top: -20px;
+      left: 24px;
+      line-height: 1;
+    }
+
+    .responsibility-quote p {
+      font-size: 17px;
+      color: var(--off-white);
+      line-height: 1.9;
+      margin: 0;
+    }
+
+    .dilemma {
+      margin: 40px 0;
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      gap: 16px;
+      align-items: center;
+    }
+
+    .dilemma-box {
+      padding: 24px;
+      background: rgba(249,247,242,0.05);
+      text-align: center;
+    }
+
+    .dilemma-title {
+      font-family: 'DM Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.2em;
+      color: var(--gold-light);
+      margin-bottom: 12px;
+    }
+
+    .dilemma-text {
+      font-size: 13px;
+      color: rgba(249,247,242,0.7);
+      line-height: 1.7;
+    }
+
+    .dilemma-arrow {
+      color: var(--gold);
+      font-size: 24px;
+      opacity: 0.5;
+    }
+
+    .s05-bridge {
+      margin-top: 48px;
+      padding: 32px 36px;
+      border-left: 2px solid var(--gold);
+      background: rgba(160,120,32,0.06);
+    }
+
+    .s05-bridge p {
+      font-size: 16px;
+      color: var(--off-white);
+      margin: 0;
+      line-height: 1.9;
+    }
+
+    /* ── S06 CTA ── */
+    .s06 {
+      background: var(--off-white);
+      text-align: center;
+      padding: 120px 32px;
+      max-width: none;
+    }
+
+    .s06-inner {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .s06 h2 {
+      font-size: clamp(22px, 3vw, 30px);
+      color: var(--navy);
+      margin-bottom: 20px;
+    }
+
+    .s06 p {
+      color: var(--text-mid);
+      font-size: 15px;
+      margin-bottom: 16px;
+    }
+
+    .cta-divider {
+      width: 40px;
+      height: 1px;
+      background: var(--gold);
+      margin: 40px auto;
+    }
+
+    .cta-form {
+      margin-top: 48px;
+      text-align: left;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-label {
+      display: block;
+      font-family: 'DM Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.2em;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .form-input,
+    .form-textarea {
+      width: 100%;
+      padding: 14px 16px;
+      border: 1px solid var(--warm-gray);
+      background: white;
+      font-family: 'Noto Serif JP', serif;
+      font-size: 14px;
+      color: var(--text-dark);
+      outline: none;
+      transition: border-color 0.3s;
+    }
+
+    .form-input:focus,
+    .form-textarea:focus {
+      border-color: var(--gold);
+    }
+
+    .form-textarea { height: 100px; resize: none; }
+
+    .form-note {
+      font-size: 12px;
+      color: var(--text-light);
+      margin-top: 8px;
+      font-family: 'DM Mono', monospace;
+      line-height: 1.6;
+    }
+
+    .cta-btn {
+      width: 100%;
+      padding: 18px;
+      background: var(--navy);
+      color: var(--off-white);
+      font-family: 'Noto Serif JP', serif;
+      font-size: 14px;
+      letter-spacing: 0.1em;
+      border: none;
+      cursor: pointer;
+      margin-top: 28px;
+      transition: background 0.3s;
+      position: relative;
+    }
+
+    .cta-btn:hover { background: var(--gold); }
+
+    .cta-alt {
+      margin-top: 32px;
+      font-size: 13px;
+      color: var(--text-light);
+    }
+
+    .cta-alt a {
+      color: var(--gold);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(160,120,32,0.3);
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--navy-deep);
+      padding: 48px 32px;
+      text-align: center;
+    }
+
+    .footer-brand {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20px;
+      color: var(--off-white);
+      letter-spacing: 0.15em;
+      margin-bottom: 8px;
+    }
+
+    .footer-sub {
+      font-family: 'DM Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.2em;
+      color: rgba(249,247,242,0.35);
+      text-transform: uppercase;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 600px) {
+      .fact-grid { grid-template-columns: 1fr 1fr; }
+      .dilemma { grid-template-columns: 1fr; }
+      .dilemma-arrow { display: none; }
+      .os-item { flex-direction: column; gap: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-eyebrow">Proudfoot Japan — Case Study</div>
+    <div class="hero-number">
+      575
+      <span>件のPoC</span>
+    </div>
+    <div class="hero-subtitle">
+      6年間 &nbsp;／&nbsp; 1,000億円 &nbsp;／&nbsp; 実用化率77%<br>
+      ——そして、戦略の作り直し。
+    </div>
+    <div class="hero-question fade-in visible">
+      これは失敗の記録ではない。<br>
+      カイゼンOSが、完璧に動作した結果だ。
+    </div>
+    <div class="hero-scroll">
+      <div class="hero-scroll-line"></div>
+      SCROLL
+    </div>
+  </div>
+
+  <!-- S01 FACT -->
+  <div class="s01">
+    <div class="s01-inner">
+      <div class="section-label fade-in">S 01 &nbsp; The Facts</div>
+      <h2 class="fade-in">公開されている数字を、<br>まず正確に置く。</h2>
+      <p class="fade-in">2024年7月、関西電力が投資家向けにDX推進の全貌を公開した。その資料に記されていたのは、日本の大企業がDXに本気で取り組んだ6年間の記録だ。</p>
+
+      <div class="fact-grid fade-in">
+        <div class="fact-item">
+          <div class="fact-number">575</div>
+          <div class="fact-label">累計PoC件数（2018-2023年度）</div>
+        </div>
+        <div class="fact-item">
+          <div class="fact-number">441</div>
+          <div class="fact-label">累計実用化件数（実用化率 約77%）</div>
+        </div>
+        <div class="fact-item">
+          <div class="fact-number">1,000<span style="font-size:0.5em;color:var(--gold-light)">億円</span></div>
+          <div class="fact-label">DX累計投資額（〜2023年度末）</div>
+        </div>
+        <div class="fact-item">
+          <div class="fact-number">240<span style="font-size:0.5em;color:var(--gold-light)">億円</span></div>
+          <div class="fact-label">2023年度 単年DX効果（IRR 約8%）</div>
+        </div>
+      </div>
+      <div class="fact-note fade-in">出典：関西電力株式会社「関西電力グループのDXの取組みについて」2024年7月11日</div>
+
+      <div class="reversal fade-in">
+        <p>しかし同じ資料に、こう書かれていた。<br><em>「DXビジョンを明確化し、DXロードマップを再構築する」</em><br><br>6年間・575件・1,000億円の後で——会社は、戦略の作り直しを宣言した。なぜか。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- S02 KAIZEN OS -->
+  <section class="s02">
+    <div class="section-label fade-in">S 02 &nbsp; Reading the Structure</div>
+    <h2 class="fade-in">カイゼンOSとして読む。</h2>
+
+    <p class="fade-in">多くの論者はここで「DXが目的化していた」と言う。私はそう読まない。</p>
+
+    <p class="fade-in">関西電力の推進体制を見ると、設計そのものは合理的だった。役員をトップとするDX戦略委員会が全体戦略を担い、各部門がDX計画を策定・実行し、アクセンチュアとの合弁会社K4 Digitalが技術支援する三位一体の構造。PoCのテーマは現場が課題を起点に設定し、K4 Digitalが高速で検証する。成果はコスト削減・業務効率化の金銭換算でKPI管理される。</p>
+
+    <p class="fade-in">これは欠陥のある設計ではない。</p>
+
+    <div class="callout fade-in">
+      <p>カイゼンOSが、完璧に動作した結果だ。<br>問題は、カイゼンOSではたどり着けない場所がある、ということだ。</p>
+    </div>
+
+    <p class="fade-in">日本の大企業には、世界に誇るべき「カイゼンOS」が搭載されている。既存のルールをより精緻に守ることに最適化されたこのOSは、品質を上げ、コストを下げ、プロセスを磨く。しかしカイゼンOSで前提倒置（既存事業の前提そのものをひっくり返す発想）を実行しようとすると、組織の免疫機能が働く。静かに、しかし確実に、その芽は排除される。</p>
+
+    <p class="fade-in">OSが悪いのではない。前提倒置には、別のOSが必要なのだ。</p>
+  </section>
+
+  <!-- S03 21 FACTORS -->
+  <div class="s03">
+    <div class="s03-inner">
+      <div class="section-label fade-in">S 03 &nbsp; 21 Immunity Factors</div>
+      <h2 class="fade-in">免疫機能には、名前がある。</h2>
+
+      <p class="factors-intro fade-in">私は、カイゼンOSが前提倒置の芽を摘むメカニズムを「21の不確実性排除因子」として定義している。これらは悪意から生まれない。現在の合理性の言語で語られる、未来の可能性の排除だ。</p>
+
+      <div class="factor-category fade-in">
+        <div class="category-header">
+          <div class="category-num">1</div>
+          <div class="category-title">経済合理性・市場性（時間軸による価値の矮小化）</div>
+        </div>
+        <div class="category-examples">
+          現時点でのTAM評価 ／ 短期P/L偏重 ／ 割引率の過大評価<br>
+          既存事業とのカニバリゼーション ／ 代替手段の過小評価
+        </div>
+      </div>
+
+      <div class="factor-category fade-in">
+        <div class="category-header">
+          <div class="category-num">2</div>
+          <div class="category-title">実現可能性・確実性（学習プロセスの拒絶）</div>
+        </div>
+        <div class="category-examples">
+          PoCの成功定義の硬直化 ／ 前例踏襲バイアス ／ 開発速度の不整合<br>
+          リソースの既存固定 ／ 法規制の静的解釈
+        </div>
+      </div>
+
+      <div class="factor-category fade-in">
+        <div class="category-header">
+          <div class="category-num">3</div>
+          <div class="category-title">組織・戦略の整合性（構造的な目詰まり）</div>
+        </div>
+        <div class="category-examples">
+          自社完結の罠 ／ 正当性の狭義解釈 ／ KPIの不適合<br>
+          意思決定の多層化による減衰 ／ 責任主体の不在（時間軸の断絶）
+        </div>
+      </div>
+
+      <div class="factor-category fade-in">
+        <div class="category-header">
+          <div class="category-num">4</div>
+          <div class="category-title">競合・外部環境（防衛的リアクティブ）</div>
+        </div>
+        <div class="category-examples">
+          競合優位性の静的判断 ／ プラットフォーム拒絶反応 ／ スイッチングコストの誤認
+        </div>
+      </div>
+
+      <div class="factor-category fade-in">
+        <div class="category-header">
+          <div class="category-num">5</div>
+          <div class="category-title">心理的・情緒的因子（説明責任の呪縛）</div>
+        </div>
+        <div class="category-examples">
+          失敗の説明への恐怖 ／ サンクコストへの執着 ／ 確証バイアス
+        </div>
+      </div>
+
+      <div class="activated-factors fade-in">
+        <div class="activated-label">関西電力のケースで同時作動した5因子</div>
+
+        <div class="activated-item">
+          <div class="activated-factor-id">⑥</div>
+          <div class="activated-factor-name">PoCの成功定義の硬直化</div>
+          <div class="activated-factor-desc">実用化率77%がKPIになった瞬間、「何件実用化したか」が問われる構造になる。「そもそもこの業務は必要か」という問いは、この指標には乗らない。</div>
+        </div>
+
+        <div class="activated-item">
+          <div class="activated-factor-id">⑬</div>
+          <div class="activated-factor-name">KPIの不適合</div>
+          <div class="activated-factor-desc">240億円の効果はコスト削減・業務効率化の金銭換算で積み上げられた。前提倒置型の取り組みは、単年度の効率化指標には現れない。</div>
+        </div>
+
+        <div class="activated-item">
+          <div class="activated-factor-id">⑭</div>
+          <div class="activated-factor-name">意思決定の多層化による減衰</div>
+          <div class="activated-factor-desc">部門→K4 Digital→DX戦略委員会という三層構造は実行の品質を上げる。しかし「この前提ごと捨てていい」という尖った問いを、合議の過程で丸める。</div>
+        </div>
+
+        <div class="activated-item">
+          <div class="activated-factor-id">⑮</div>
+          <div class="activated-factor-name">責任主体の不在（時間軸の断絶）</div>
+          <div class="activated-factor-desc">「AI産業革命は2030年頃」と自ら宣言した。しかし担当役員の任期は通常2〜3年。6年後の前提倒置に責任を持つ人間が、構造上、存在しない。</div>
+        </div>
+
+        <div class="activated-item">
+          <div class="activated-factor-id">⑳</div>
+          <div class="activated-factor-name">サンクコストへの執着</div>
+          <div class="activated-factor-desc">6年・1,000億円・575件という積み上げは「この方向でよかった」という確信を組織に植え付ける。その確信が、前提ごと問い直す判断を遅らせる。</div>
+        </div>
+      </div>
+
+      <div class="self-check fade-in">
+        <div class="self-check-title">御社はいくつ当てはまりますか</div>
+        <div class="check-item">
+          <div class="check-mark">—</div>
+          <div>DXのPoCテーマは、誰が、何を起点に設定しているか</div>
+        </div>
+        <div class="check-item">
+          <div class="check-mark">—</div>
+          <div>効果のKPIは、コスト削減と収益創出をどの比率で測っているか</div>
+        </div>
+        <div class="check-item">
+          <div class="check-mark">—</div>
+          <div>「この前提ごと捨てていい」と、誰が決めることになっているか</div>
+        </div>
+        <div class="check-item">
+          <div class="check-mark">—</div>
+          <div>10年後の前提倒置に責任を持つ人間が、組織設計上、存在するか</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- S04 ALTERNATIVE OS -->
+  <section class="s04">
+    <div class="section-label fade-in">S 04 &nbsp; The Other OS</div>
+    <h2 class="fade-in">別のOSとは、何か。</h2>
+
+    <p class="fade-in">前提倒置を実行するために必要な別のOSは、3つの要素から成る。カイゼンOSを否定するものではない。カイゼンOSが動く「既存の土俵」の外側に、新しい土俵を設計するための思考様式だ。</p>
+
+    <div class="os-framework">
+      <div class="os-item fade-in">
+        <div class="os-number">I</div>
+        <div class="os-content">
+          <div class="os-title">前提倒置性</div>
+          <div class="os-desc">「現在の前提」を疑い、「別の前提が正しければ」という仮説を立てる能力。これは技術の話ではなく、経営者が「この土俵では勝てない」と見切る判断力だ。カイゼンOSは既存の前提を磨く。前提倒置性は、その前提そのものを問う。</div>
+          <div class="os-kepco">関西電力の場合：575件のPoCは「現在の業務が正しい」という前提の上で設計された。再構築の宣言は、その前提が崩れたことへの承認だった。</div>
+        </div>
+      </div>
+
+      <div class="os-item fade-in">
+        <div class="os-number">II</div>
+        <div class="os-content">
+          <div class="os-title">代替不可性</div>
+          <div class="os-desc">前提を変えた後の世界で、競合に模倣されない「勝ち方」を設計する能力。新しい土俵を作っても、すぐに誰でも入れる土俵では意味がない。PoCを速く回すことは外部委託で代替できる。前提を問い直す対話は、代替不可だ。</div>
+          <div class="os-kepco">関西電力の場合：K4 Digitalの技術支援は「実行の代替可能性」を高めた。しかし「何を問うか」の設計は外部化できない。</div>
+        </div>
+      </div>
+
+      <div class="os-item fade-in">
+        <div class="os-number">III</div>
+        <div class="os-content">
+          <div class="os-title">自動拡張性</div>
+          <div class="os-desc">前提が変われば、残りの施策が自走する構造を設計する能力。個別のPoC件数を積み上げるのではなく、「この前提が正しければ、次に何が不可逆に起きるか」を先に設計する。前提倒置の起点さえ正しければ、実行は加速する。</div>
+          <div class="os-kepco">関西電力の場合：575件のPoCは並列実行された。前提倒置型の設計なら、1つの前提変換が残り574件の方向を変える。</div>
+        </div>
+      </div>
+    </div>
+
+    <p class="fade-in">この3要素は、教えることができる。しかしそれを使う勇気は、本人が選ぶしかない。フレームワークを持ちながら、その勇気を選ばなかった組織の記録——それが575件だ、と私は読んでいる。</p>
+  </section>
+
+  <!-- S05 RESPONSIBILITY -->
+  <div class="s05">
+    <div class="s05-inner">
+      <div class="section-label fade-in">S 05 &nbsp; The Real Question</div>
+      <h2 class="fade-in">免疫機能を解除できるのは、<br>経営者だけだ。</h2>
+
+      <div class="responsibility-quote fade-in">
+        <p>「本当のところ、うちにはイノベーションと言われる新規事業はない。今も数十年前に作られた製品で、うちの事業は成り立っているし、伸びている。」</p>
+      </div>
+
+      <p class="fade-in">これはある大企業の役員の言葉だ。この「伸びている」という事実が、経営者からOSを変える理由を奪う。今困っていないから、緊急性がない。緊急性がないから、リスクを取る動機がない。</p>
+
+      <p class="fade-in">しかし問いたい。数十年前に作られた製品が、次の数十年も通用するという保証は、どこにあるのか。</p>
+
+      <div class="dilemma fade-in">
+        <div class="dilemma-box">
+          <div class="dilemma-title">現在</div>
+          <div class="dilemma-text">「今、困っていない」<br>だから緊急性がない<br>だからOSを変えない</div>
+        </div>
+        <div class="dilemma-arrow">→</div>
+        <div class="dilemma-box">
+          <div class="dilemma-title">未来</div>
+          <div class="dilemma-text">前提が崩れる<br>しかしそのころ<br>現経営者は組織を離れている</div>
+        </div>
+      </div>
+
+      <p class="fade-in">このジレンマを前にして、私たちにできることは限られている。免疫機能を解除できるのは、経営者だけだ。私たちは、その扉を開く問いを届けることしかできない。</p>
+
+      <p class="fade-in">ただ、問いたいことがある。免疫機能が解除されたとき、あなたの組織はどう変わるか。そしてその変化に、あなたはどう関わっていたいか。</p>
+
+      <div class="s05-bridge fade-in">
+        <p>経営企画の方へ——<br>まず、この問いをそのまま持ち帰ってほしい。<br>「自社のDXは、誰が『この前提ごと捨てていい』と決めていますか」<br><br>この問いを経営者と話したとき、何が起きるか。それを一緒に確かめたいのです。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- S06 CTA -->
+  <div class="s06">
+    <div class="s06-inner">
+      <div class="section-label fade-in" style="justify-content:center">S 06 &nbsp; Next Step</div>
+      <h2 class="fade-in">共同探索への招待</h2>
+      <p class="fade-in">まず、現状を深く話したい。カイゼンOSがもたらしてきた成果と、その先にある問いを——あなたの会社の文脈で一緒に考えることが、最初の一歩です。</p>
+
+      <div class="cta-divider"></div>
+
+      <div class="cta-form fade-in">
+        <form action="https://formspree.io/f/mjgalvdz" method="POST">
+          <div class="form-group">
+            <label class="form-label">お名前</label>
+            <input class="form-input" type="text" name="name" placeholder="山田 太郎" required="">
+          </div>
+          <div class="form-group">
+            <label class="form-label">会社名・部署</label>
+            <input class="form-input" type="text" name="company" placeholder="〇〇株式会社 経営企画部">
+          </div>
+          <div class="form-group">
+            <label class="form-label">メールアドレス</label>
+            <input class="form-input" type="email" name="email" placeholder="taro@example.com" required="">
+          </div>
+          <div class="form-group">
+            <label class="form-label">一言（任意）</label>
+            <textarea class="form-textarea" name="message" placeholder="気になった問い、自社の状況など、一言だけでも構いません。"></textarea>
+            <div class="form-note">※ 一行の返信だけでも歓迎します。フォームが難しければ、このページをそのまま転送していただいても構いません。</div>
+          </div>
+          <button type="submit" class="cta-btn">この問いを、一緒に確かめる</button>
+        </form>
+      </div>
+
+      <div class="cta-alt fade-in">
+        Proudfoot Japan について詳しくは
+        <a href="https://www.proudfoot.co.jp/" target="_blank">こちら</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-brand">Proudfoot Japan</div>
+    <div class="footer-sub">Realize People's Full Potential</div>
+    <div style="margin-top: 24px; font-family: &#39;DM Mono&#39;, monospace; font-size: 10px; color: rgba(249,247,242,0.25); line-height: 1.8; max-width: 600px; margin-left: auto; margin-right: auto; text-align: center;">
+      本ページの分析・解釈は、公開情報をもとにしたProudfoot Japanの見解であり、関西電力株式会社の公式見解を代表するものではありません。
+    </div>
+  </footer>
+
+  <script>
+    // Scroll-triggered fade-in
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  </script>
+
+
+</body></html>
